@@ -5,9 +5,10 @@ import { MemeGenerated } from '../MemeGenerated/MemeGenerated';
 // import styles from './styles.module.css';
 
 export const App = () => {
+  const image ="./src/Logo.png"
   return (
     <div>
-      <h1>Meme Creator</h1>
+      <image src={image}/>
       <Switch>
         <Route exact path='/'>
           <Meme />
