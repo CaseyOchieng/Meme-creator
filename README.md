@@ -1,68 +1,23 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+# Meme Generator Application
+This application allows users to create, view, and manage memes. Users can register or log in to the application to access its features. The minimum viable product includes the following functionality:
+## Functionality
+- Register/Login: Users should be able to create an account or log in to the application to use its features.
+- Add Meme: Users can add a new meme by uploading an image and providing a title and description.
+- View My Memes: Users can view all the memes they have added.
+- View All Memes: Users can view all the memes available in the application.
+- Search Meme: Users can search for a meme by its title or date published.
+- Edit Meme: Users can update the details of a meme they added.
+- Delete Meme: Users can remove the details of memes they added.
+- Access Control: Users cannot update or delete memes they have not added. In order to use the application, the user must be logged in.
+## Technology Stack
+- Front-end: HTML, CSS, JavaScript, and React
+- Back-end: Node.js
+## Getting Started
+1. Clone the repository to your local machine.[Click here to fork](https://github.com/CaseyOchieng/Meme-creator)
+2. Navigate to the project directory in the terminal and run `npm install` to install the dependencies.
+3. Start the server by running npm run server
+4. Access the application at `http://localhost:3000`.
+## Contributors
+- [Casey Ochieng](https://github.com/CaseyOchieng) - Full Stack Developer
+## License
+This project is licensed under the MIT License - see the LICENSE file for details
