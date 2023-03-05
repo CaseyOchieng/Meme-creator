@@ -73,7 +73,9 @@ if (json.data && json.data.url) {
       )}
       {!template && (
         <>
-          <h1>Pick a template</h1>
+          <h1>Pick a template <br/><button id="login"><a href="http://my-video-five.vercel.app/">
+Login
+    </a></button></h1>
           {templates.map(template => {
             return (
               <Meme
